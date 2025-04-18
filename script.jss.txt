@@ -1,0 +1,6 @@
+let bubbles = 0;
+
+document.getElementById('clicker').addEventListener('click', () => {
+  bubbles++;
+  document.getElementById('counter').textContent = bubbles;
+});
